@@ -61,12 +61,6 @@ joblib==1.5.0
 jsonschema==4.23.0
 jsonschema-specifications==2025.4.1
 keras==3.9.2
-Kivy==2.3.1
-kivy-deps.angle==0.4.0
-kivy-deps.glew==0.3.1
-Kivy-Garden==0.1.5
-kivy_deps.sdl2==0.8.0
-kiwisolver==1.4.8
 lazy_loader==0.4
 libclang==18.1.1
 lief==0.16.5
@@ -101,7 +95,6 @@ plaster==1.1.2
 plaster-pastedeploy==1.0.1
 platformdirs==4.3.8
 player==0.6.1
-plyer==2.1.0
 pooch==1.8.2
 protobuf==5.29.4
 psutil==7.0.0
