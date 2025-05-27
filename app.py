@@ -33,12 +33,13 @@ def remove_bg():
     img_io.seek(0)
 
     return send_file(img_io, mimetype='image/png', as_attachment=True, download_name='white_bg.png')
+    
 app = Flask(__name__)
 
-@app.route("/")
+@app.route('/')
 def home():
-    return "هلا والله! موقعي شغال على Render ✅"
+    return "Hello from Render!"
 
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8080))
-    app.run(host="0.0.0.0", port=port)
+if __name__ == '__main__':
+    port = int(os.environ.get("PORT", 5000))  # مهم جدًا تأخذ البورت من environment variable
+    app.run(host='0.0.0.0', port=port)  
